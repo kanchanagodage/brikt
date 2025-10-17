@@ -37,7 +37,7 @@ export default function RootLayout({
       <header>
         <Navbar/>
         </header>      
-        <body className="min-h-screen w-full bg-black text-white antialiased">
+        <body className="min-h-screen w-full text-white antialiased">
         {children}
       </body>
       <FooterCTA/>
