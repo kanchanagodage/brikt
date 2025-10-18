@@ -10,7 +10,7 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-black/90 backdrop-blur-md shadow-lg rounded-xl px-6 py-3 w-[90%] md:w-[90%] lg:w-[60%] max-w-5xl">
+    <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-black/90 backdrop-blur-md shadow-lg rounded-xl py-5 px-6 md:py-3 w-[90%] md:w-[90%] lg:w-[60%] max-w-5xl">
       <div className="flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
