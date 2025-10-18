@@ -6,25 +6,25 @@ import { ReactTyped } from "react-typed";
 
 export default function Hero() {
   return (
-    <section className="h-full">
+    <section className="relative w-full min-h-[100dvh] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <video
-        className="absolute inset-0 h-full w-full object-cover -z-10"
-        src="/hero-video.webm" // or .webm
+        className="absolute inset-0 w-full h-full object-cover"
+        src="/hero-video.webm"
         autoPlay
         loop
         muted
         playsInline
-        style={{ width: "100%", height: "auto" }}
+        poster="/hero-bg-3.jpg" // fallback image
       />
-      <div className="relative h-screen max-w-7xl flex items-center justify-center">
+      <div className="relative h-screen w-full flex items-center justify-center">
         {/* <Image
-        src="/hero-bg-3.jpg" // Put your image inside /public/
-        alt="Brikt Background"
-        fill
-        priority
-        className="object-cover fixed inset-0 -z-10"
-      /> */}
+          src="/hero-bg-3.jpg" // Put your image inside /public/
+          alt="Brikt Background"
+          fill
+          priority
+          className="object-cover fixed inset-0 -z-10"
+        /> */}
 
         {/* Overlay for contrast */}
         <div className="absolute inset-0 bg-black/20 -z-0" />
