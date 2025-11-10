@@ -7,7 +7,6 @@ export default function Home() {
     <div className="">
       <main className="">
         <Hero/>
-        <ServiceCards />
       </main>
 
     </div>
