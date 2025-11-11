@@ -20,17 +20,17 @@ export default function FooterCTA() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 pt-6">
           <Link
-            href="/contact"
+            href="#contact"
             className="px-8 py-3 rounded-full bg-[#F83D3D] text-white font-semibold shadow-lg hover:bg-[#e23737] transition"
           >
             Start a Project
           </Link>
-          <Link
+          {/* <Link
             href="/casestudies"
             className="px-8 py-3 rounded-full border border-gray-600 text-gray-300 font-semibold hover:border-white hover:text-white transition"
           >
             View Case Studies
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>

@@ -26,22 +26,22 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center gap-6 text-white font-medium">
           <li>
-            <Link href="/design" className="hover:text-[#F83D3D]">
+            <Link href="#design" className="hover:text-[#F83D3D]">
               Design
             </Link>
           </li>
           <li>
-            <Link href="/technology" className="hover:text-[#F83D3D]">
+            <Link href="#technology" className="hover:text-[#F83D3D]">
               Technology
             </Link>
           </li>
           <li>
-            <Link href="/growth" className="hover:text-[#F83D3D]">
+            <Link href="#growth" className="hover:text-[#F83D3D]">
               Growth
             </Link>
           </li>
           <li>
-            <Link href="/about" className="hover:text-[#F83D3D]">
+            <Link href="#about" className="hover:text-[#F83D3D]">
               About
             </Link>
           </li>
